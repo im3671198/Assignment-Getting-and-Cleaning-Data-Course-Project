@@ -4,8 +4,8 @@
 This code book describes the data, variables, and transformations performed to clean up the data and generate the final tidy dataset.
 
 ## 1. Dataset Description
+
 The source data comes from the "Human Activity Recognition Using Smartphones Dataset", which contains tracking data from 30 volunteers aged 19-48 performing six activities while wearing a Samsung Galaxy S II smartphone on their waist. 
----
 
 ## 2. Transformations and Work Performed
 The script `run_analysis.R` executes the following data cleaning steps:
@@ -30,8 +30,6 @@ The script `run_analysis.R` executes the following data cleaning steps:
 4.1 - The descriptive variables are: Time, Frequency, Accelerometer, Gyroscope, Magnitude, Body
 
 5 - From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
-
----
 
 ## 3. Variables in the Tidy Dataset
 
